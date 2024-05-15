@@ -1,0 +1,298 @@
+ 
+ *{
+    margin:0px;
+    padding: 0px;
+ }
+ 
+ header{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    background-color: #000;
+    
+ }
+ 
+ nav{
+    width: 70%;
+   
+    }
+ 
+    nav ul{
+
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    
+
+    }
+  
+    nav ul li{
+   
+    list-style: none;
+ 
+    
+
+    }
+
+
+    h3{
+        color: #fff;
+        width: 90%;
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+
+    a{
+        color: #fff;
+        width: 90%;
+        margin-left: 20px;
+        font-size: 20px;
+        text-decoration: none;
+
+    }
+
+   
+    strong{
+        color: rgb(20, 20, 211);
+        margin-left: 6px;
+       
+
+    
+    }
+
+
+    .line{
+
+        background-color: blue;
+        display: flex;
+        height: 5px;
+   
+     
+    }
+
+    .valerie {
+        background-image: url(../assets/cabecera.jpg);
+        height: 100vh;
+        /* padding: 20vh; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        flex-direction: column;
+        text-align: center;
+        
+
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+
+    }
+
+
+    .valerie h1{
+     
+        font-size: 60px;
+        transform: translateY(-30px);
+        
+        /* margin: 90px; */
+    
+    }
+
+    .valerie p{
+     
+        font-size: 20px;
+        transform: translateY(-30px);
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: #000000;
+        height:70px;
+        width: 100%;
+        color: #fff;
+    }
+
+    .menu p{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #000000;
+        width: 100%;
+        color: #fff;
+        font-size: 1.2rem;
+        margin: 60px;
+    }
+
+    input{
+        height: 20px;
+    }
+
+  
+    button {
+    background-color: #ff3939;
+    height: 25px;
+    margin: 60px;
+    border: none;
+    margin-left: 10px;
+   
+    
+   }
+
+
+   footer{
+    text-align: center;
+    height: 60px;
+    background-color: rgb(93, 209, 199);;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    
+   
+  }
+
+  section{
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+   
+}
+.items_section img{
+   width: 100px;
+   height: 100px;
+  
+   
+}
+.items_section{
+ 
+   text-align: center;
+
+}
+
+.pepa {
+    
+     background-color: #35424a;
+     text-align: justify;
+     color: #fff;
+     padding: 10px;
+     margin: 4px;
+    
+}
+
+
+.contactos{
+   display: flex;
+    flex-direction: column;
+    width: 110vh;
+    margin:0 70px;
+    
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formulario input{
+    width: 700px;
+    height: 40px;
+}
+.formulario textarea{
+    width: 700px;
+    height: 80px;
+    
+}
+.boton{
+    background-color: #e02f2f;
+    width: 700px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+.servicios{
+    margin: 0 80px;
+    display: flex;
+    flex-direction: column;
+    width: 110vh;
+    margin-top: 12px;
+
+
+
+}
+.servicios_v {
+    background-color: #d4d5d6;
+    margin: 2px;
+    padding: 30px;
+    
+
+}
+.servicios_v p{
+    color: #35424a;
+
+}
+
+
+.vale{
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    width: 110vh;
+    margin: 0 80px;
+    
+}
+
+.vale img{
+    width: 100%;
+    margin: 10px 0;
+    height: 350px;
+    margin:  10px  0 30px 0;
+}
+
+
+
+.pepita{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    /* height: 20vh; */
+    margin: 20px 0;
+    background-color: #35424a;
+    color: #fff;
+    text-align: justify;
+    padding: 20px 10px 10px ;
+    
+}
+.pepita p{
+
+    margin:5px;
+    width: 90%;
+    display: flex;
+
+  
+ 
+ 
+}
+div img{
+    margin: 0px;
+    width: 81%;
+    
+   
+}
+
+main{
+    display: flex;
+}
